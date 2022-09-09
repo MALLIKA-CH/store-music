@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Store</title>
+    <style>
+        .container{
+            height: 800px;
+            width: auto;
+            border:solid black 5px;
+            background-image: url(music.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+    
+        #pre{
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            border-radius: 5px;
+        }
+        header{
+            
+            position: relative;
+            width: 100%;
+            height:90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            size: 30px;
+        }
+        .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:whitesmoke;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+img{
+ 
+
+}
+
+        context{
+          white-space: nowrap;
+
+        }
+        #link{
+
+        }
+        footer{
+          background-color: white;
+          color: black;
+          bottom: 0px;
+          text-align: center;
+        }   
+    </style>
+</head>
+<body>
+  
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+  
+    
+    <div class="container">
+      
+         <header><button>
+            <input type="search"><img src="se.jpg" width="2px"></button>
+         </header>
+      
+            <div id="pre">
+                  <i>  <button> <a href="">home </a> </button> 
+                     <button> <a href=""> Albums </a></button>
+                      <button>  <a href="">playlists</a></button> 
+                       <button> <a href="">tracks</a></button>  </i></div>
+                 <div class="row" style="color:red; text-align: center;font-size: 30px;">MUSIC IN THE SOUL CAN BE HEARD BY THE UNIVERSE
+                    <div id="column" style="width: 250px;"></div>
+
+
+                 </div>
+                <a href="https://gaana.com/artist/ar-rahman"><img src="AR.jpg" alt=""></a>
+                <a href="https://www.youtube.com/watch?v=VHDKxkiyai8"><img src="MUSIC1.jpg" > </a> 
+                <a href="https://gaana.com/newrelease"> <img src="love music.jpg" alt=""></a>
+                <a href="https://gaana.com/newrelease/tami"> <img src="MUSIC2.jpg" alt=""></a>
+                <a href="Dakko Dakko Meka (1).mp3"> <img src="MUSIC4.jpg" alt=""></a>
+                  <a href="Saami Saami.mp3"> <img src="MUSIC7.jpg" alt=""></a>
+                 <div class="context">
+                  <div id="">
+
+                  </div>
+
+                 </div>
+                
+
+<hr>
+
+                  
+                      <select name="" id="" style="color:orangered;">Languages
+                        <option value="">ENGLISH</option>
+                        <option value="">HINDI</option>
+                        <option value="">MALAYALAM</option>
+                        <option value="">TAMIL</option>
+                        <option value="">BENGALI</option>
+                      </select>
+
+                    <ul style="color: green;">
+                    <li>Quick settings</li>
+                    <li>Music languages(s)</li>
+                    <li>Sleep timer</li>
+                    <li style="color: red;">view All setting</li>
+                    </ul>
+                   <footer>
+                    <address>
+                      xyz colony,
+                      jklajljlkaj,
+                      89308508398.
+                    </address>
+                    ALL COPYRIGHTS ARE RESERVED
+                   </footer>
+     </div>
+
+     
+</body>
+</html>
